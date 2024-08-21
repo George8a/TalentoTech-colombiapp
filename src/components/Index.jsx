@@ -6,9 +6,9 @@ function Index({elemento}) {
         <>
             <div className="carousel-item active">
 
-            <img src={elemento.images[0]} className="d-block w-100" alt='...' width={'300px'} height={'500px'}/>
+            <img src={elemento.images[0]} className="d-block w-100" alt={elemento.name} width={'300px'} height={'500px'}/>
             <div className="carousel-caption d-none d-md-block">
-                <h5>{elemento.name}</h5>
+                <h2>{elemento.name}</h2>
 
             </div>
 
