@@ -1,3 +1,22 @@
+# Colombiapp Turismo
+
+Este proyecto fue realizado con propósitos académicos para demostrar los conocimiento adquiridos en bootcamp de **TalentoTech** programa del **MinTIC** bajo el **CYMETRIA**.
+
+
+# Tecnologías
+
+ - React
+ - Bootstrap
+ - consumo de api https://api-colombia.com/
+ 
+
+## Despliegue
+
+El proyecto se encuentra desplegado en la plataforma Vercel © sobre el domino https://talento-tech-colombiapp.vercel.app/
+
+![enter image description here](https://lh6.googleusercontent.com/3DUxDN7u7yulAm7zG6NKLi7dxctKBcsM2jvO6P8QXkNlHuxfyRVSuQQaEjLKZ0EZF7WL9t8x3G_jwC5iYi-nb-8rzVOUaPg0v4d0g_TdESGE5rmGSUqaO0Gl9l6QFFPp9A=w1280)
+##
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
