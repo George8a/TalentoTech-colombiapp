@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 ﻿# Colombiapp Turismo
+=======
+# Colombiapp Turismo
+>>>>>>> 92234ddd2030e46a3640ab5a260831cc8f262762
 
 Este proyecto fue realizado con propósitos académicos para demostrar los conocimiento adquiridos en bootcamp de **TalentoTech** programa del **MinTIC** bajo el **CYMETRIA**.
 
@@ -14,7 +18,13 @@ Este proyecto fue realizado con propósitos académicos para demostrar los conoc
 
 El proyecto se encuentra desplegado en la plataforma Vercel © sobre el domino https://talento-tech-colombiapp.vercel.app/
 
-![enter image description here](https://lh6.googleusercontent.com/3DUxDN7u7yulAm7zG6NKLi7dxctKBcsM2jvO6P8QXkNlHuxfyRVSuQQaEjLKZ0EZF7WL9t8x3G_jwC5iYi-nb-8rzVOUaPg0v4d0g_TdESGE5rmGSUqaO0Gl9l6QFFPp9A=w1280)
+![imagen del proyecto](https://lh6.googleusercontent.com/3DUxDN7u7yulAm7zG6NKLi7dxctKBcsM2jvO6P8QXkNlHuxfyRVSuQQaEjLKZ0EZF7WL9t8x3G_jwC5iYi-nb-8rzVOUaPg0v4d0g_TdESGE5rmGSUqaO0Gl9l6QFFPp9A=w1280)
+<<<<<<< HEAD
+=======
+##
+##
+
+>>>>>>> 92234ddd2030e46a3640ab5a260831cc8f262762
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
