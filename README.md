@@ -17,6 +17,9 @@ Este proyecto fue realizado con propósitos académicos para demostrar los conoc
 
 El proyecto se encuentra desplegado en la plataforma Vercel © sobre el domino https://talento-tech-colombiapp.vercel.app/
 
+
+![enter image description here](https://i.postimg.cc/Qx9FXZT5/colombiapp.png)
+
 <<<<<<< HEAD
 =======
 ##
