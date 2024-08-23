@@ -33,7 +33,7 @@ function navbar({ handleClick }) {
                                 <Boton handleClick={handleClick}>Turismo</Boton>
 
                             </li>
-                            <li className="nav-item">
+                            {/* <li className="nav-item">
                                 <Boton handleClick={handleClick}>Regiones</Boton>
 
                             </li>
@@ -44,7 +44,7 @@ function navbar({ handleClick }) {
                             <li className="nav-item">
                                 <Boton handleClick={handleClick}>Res Natuales</Boton>
 
-                            </li>
+                            </li> */}
                         </ul>
                        
                     </div>
