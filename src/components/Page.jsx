@@ -5,6 +5,8 @@ import Regiones from './Regiones';
 import Ciudades from './Ciudades';
 import ReservasN from './ReservasN';
 import Index from './Index';
+import Footer from '../ui/Footer';
+//import './page.css';
 
 function Page() {
     const [listElemento, setListElemento] = useState([]);
@@ -17,8 +19,8 @@ function Page() {
         try {
             const response = await fetch(apiUrl);
             const data = await response.json();
-            
-            
+
+
             return data.data;
         } catch (error) {
             console.error("Error al obtener los datos: ", error)
@@ -55,33 +57,33 @@ function Page() {
 
         content = (
             <>
-                
 
 
-                    <div className='container mt-5'>
-                        <div id="carouselExampleAutoplaying" className=" carousel slide" data-bs-ride="carousel">
-                            <div className="carousel-inner">
-                                
-                                {listElemento && listElemento.map((elemento, index) => (
 
-                                    <Index key={index} elemento={elemento} /> ))}
+                <div className='container mt-5'>
+                    <div id="carouselExampleAutoplaying" className=" carousel slide" data-bs-ride="carousel">
+                        <div className="carousel-inner">
 
-                                
-                                <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
-                                    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-                                    <span className="visually-hidden">Previous</span>
-                                </button>
-                                <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
-                                    <span className="carousel-control-next-icon" aria-hidden="true"></span>
-                                    <span className="visually-hidden">Next</span>
-                                </button>
-                            </div>
+                            {listElemento && listElemento.map((elemento, index) => (
+
+                                <Index key={index} elemento={elemento} />))}
+
+
+                            <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                                <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span className="visually-hidden">Previous</span>
+                            </button>
+                            <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                                <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span className="visually-hidden">Next</span>
+                            </button>
                         </div>
                     </div>
+                </div>
 
 
 
-                
+
 
             </>
 
@@ -119,10 +121,30 @@ function Page() {
 
     return (
         <div>
-            <Navbar handleClick={changeDisplayPage}></Navbar>
-            <div className='container'>
-                {content}
-            </div>
+            <body>
+                <div className='wrapper'>
+                 <div className='header'>
+                 <Navbar handleClick={changeDisplayPage}></Navbar>
+                    
+                </div>   
+                
+                <div className='content'>
+                    {content}
+                </div>
+                <div className='footer'>
+                    <Footer />
+
+
+                </div>
+
+                </div>
+             
+
+
+
+            </body>
+
+
 
 
         </div>

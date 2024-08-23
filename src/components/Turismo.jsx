@@ -1,6 +1,7 @@
 import React from 'react';
 import { useState, useEffect } from 'react';
 import Cards from '../ui/Cards';
+import './Turismo.css';
 
 
 function Turismo(){
@@ -14,6 +15,9 @@ function Turismo(){
         setQuery(e.target.elements.search.value);
     }
 
+
+    
+
     async function fetchAtrativoByName(queryTerm){
 
         
@@ -24,12 +28,7 @@ function Turismo(){
 
 
         const apiUrl = query ? `${baseurl}/search/${queryTerm}` : `${baseurl}`;
-        console.log(apiUrl);
        
-
-        
-
-
         
         
         
