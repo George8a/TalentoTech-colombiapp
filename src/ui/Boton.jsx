@@ -2,8 +2,8 @@ import React from 'react';
 
 function Boton({ children, handleClick }) {
     let pageId;
-    if (children === 'Index'){
-        pageId = 1;
+    if (children === 'Res Natuales'){
+        pageId = 5;
     }
     else if (children === 'Turismo'){
         pageId = 2;
@@ -12,7 +12,7 @@ function Boton({ children, handleClick }) {
     }else if (children === 'Ciudades'){
         pageId = 4;
     }else{
-        pageId = 5;
+        pageId = 1;
     }
     return (
       

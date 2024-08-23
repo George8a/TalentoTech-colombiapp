@@ -17,7 +17,8 @@ function Page() {
         try {
             const response = await fetch(apiUrl);
             const data = await response.json();
-            console.log(data);
+            
+            
             return data.data;
         } catch (error) {
             console.error("Error al obtener los datos: ", error)

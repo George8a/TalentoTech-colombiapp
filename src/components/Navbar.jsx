@@ -18,8 +18,11 @@ function navbar({ handleClick }) {
             </div>
             <nav className="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
                 <div className="container-fluid">
-                    
-                <Logo></Logo>
+                   <Boton handleClick={handleClick}>
+                   <Logo></Logo>
+
+                   </Boton>
+                
 
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
