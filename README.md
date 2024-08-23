@@ -1,5 +1,5 @@
 
-=======
+
 # Colombiapp Turismo
 
 
@@ -20,12 +20,7 @@ El proyecto se encuentra desplegado en la plataforma Vercel © sobre el domino h
 
 ![enter image description here](https://i.postimg.cc/Qx9FXZT5/colombiapp.png)
 
-<<<<<<< HEAD
-=======
-##
-##
 
->>>>>>> 92234ddd2030e46a3640ab5a260831cc8f262762
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
